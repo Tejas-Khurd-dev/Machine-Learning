@@ -6,6 +6,7 @@ vector_arr = np.array([10,20]) # --> shape(2)
 # result_arr =  arr_2d + vector_arr
 # print(result_arr)
 
+# Below is one of the solution
 arr_2d_reshaped = arr_2d.reshape(4,2)
 print(arr_2d_reshaped, "\n")
 result_arr =  arr_2d_reshaped + vector_arr
