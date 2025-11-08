@@ -1,6 +1,10 @@
-# .describe()
 '''
+If you want to know how big is your dataset 
+and what are the names of the columns
 
+use shape and column attributes
+shaper will return tuple with two values consist of no. of rows and no. of columns
+column will return names of the columns
 '''
 
 import pandas as pd
@@ -32,8 +36,5 @@ data = {
 }
 
 df = pd.DataFrame(data)
-print("Sample dataframe")
-print(df)
-
-print("\nDescriptive statistic of data")
-print(df.describe())
+print("Shape: ", df.shape, "\n")
+print("Columns names: ", df.columns)
